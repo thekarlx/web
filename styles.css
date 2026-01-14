@@ -1,7 +1,7 @@
 body {
   background-color: rgb(15,15,15);
   color: white;
-  font-family: "Inter", sans-serif;
+  font-family: monospace, sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
