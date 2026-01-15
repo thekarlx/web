@@ -7,7 +7,9 @@ body {
   font-weight: 400;
   font-style: normal;
 }
-
-#topbar {
+#rl {
     background-color: rgb(53, 53, 53);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
 }
