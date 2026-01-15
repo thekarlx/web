@@ -7,7 +7,11 @@ body {
   font-style: normal;
 }
 
-#rocket-league img {
-    max-width: 200px;
-    height: auto;
+#rocket-league {
+  width: 150px;              /* ancho fijo del cuadrado */
+  height: 150px;             /* alto fijo del cuadrado */
+  background-color: #000000; /* color de fondo (negro en este caso) */
+  display: flex;             /* para centrar la imagen */
+  justify-content: center;   /* centra horizontalmente */
+  align-items: center;       /* centra verticalmente */
 }
