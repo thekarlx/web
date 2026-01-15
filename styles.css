@@ -1,19 +1,6 @@
 body {
-  margin: 10px;
   background-color: rgb(15,15,15);
   color: white;
   font-family: "Inter", sans-serif;
 }
 
-#rl {
-  background-color: rgb(53, 53, 53);
-  display: inline-block;   
-  padding: 10px;           
-  border-radius: 10px;
-}
-
-#rl img {
-  display: block;     
-  width: auto;            
-  height: auto;
-}
