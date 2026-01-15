@@ -1,4 +1,5 @@
 body {
+  margin: 10px;
   background-color: rgb(15,15,15);
   color: white;
   font-family: "Inter", sans-serif;
@@ -8,10 +9,10 @@ body {
 }
 
 #rocket-league {
-  width: 150px;              /* ancho fijo del cuadrado */
-  height: 150px;             /* alto fijo del cuadrado */
-  background-color: #000000; /* color de fondo (negro en este caso) */
-  display: flex;             /* para centrar la imagen */
-  justify-content: center;   /* centra horizontalmente */
-  align-items: center;       /* centra verticalmente */
+  width: fit-content;          /* se adapta al contenido */
+  background-color: #2ecc71;
+  padding: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
