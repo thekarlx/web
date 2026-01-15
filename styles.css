@@ -8,11 +8,6 @@ body {
   font-style: normal;
 }
 
-#rocket-league {
-  width: fit-content;          /* se adapta al contenido */
-  background-color: #2ecc71;
-  padding: 20px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+#topbar {
+    background-color: rgb(53, 53, 53);
 }
