@@ -13,3 +13,7 @@ body {
     padding: 10px;
     border-radius: 10px;
 }
+
+#rl img {
+    max-width: 0.5rem;
+}
