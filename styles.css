@@ -1,4 +1,5 @@
 body {
+  margin: 5vw;
   background-color: rgb(15,15,15);
   color: white;
   font-family: "Inter", sans-serif;
@@ -6,4 +7,10 @@ body {
 
 #rl img {
     padding-right: 2%;
+}
+
+img {
+  max-width: 100%;  /* nunca excede el ancho de la pantalla */
+  height: auto;     /* mantiene proporción */
+  display: block;   /* evita espacios extra */
 }
