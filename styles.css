@@ -14,7 +14,7 @@ header {
   top: 0;
   width: 100%;
   padding: 2rem 10px;
-  background: rgba(30, 30, 30, 0.5);
+  background: rgba(15,15,15,0.5);
   backdrop-filter: blur(4px);
 }
 
@@ -38,40 +38,32 @@ main {
   text-decoration: none;
 }
 
-
-
 .links img {
   height: 32px;
   padding: 5px;
   display: inline;
   border-radius: 10px;
 }
+.kx-container {
+  background: radial-gradient(ellipse farthest-side at top, rgb(0, 255, 255), rgb(0, 132, 255)); /* guía visual, puedes quitarlo */
+  height: 15rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-.kx-title {
+.text{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
-
-.kx-title h1 {
-  margin: 1rem 0.5rem 0.4rem;
-  background: linear-gradient(90deg, #00eaff, #0000ff);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.kx-title small {
-  color: gray;
-}
-
 .github {
   display: flex;
   border: none;
   border-radius: 10px;
   font-weight: 700;
-  background: linear-gradient(to right, blue, rgb(0, 191, 255));
+  background: radial-gradient(circle at top, blue, rgb(0, 191, 255));
 }
 
 .github img {
@@ -86,6 +78,17 @@ main {
   font-family: "Inter", sans-serif;
   color: white;
 }
+.features-container{
+  display: grid;
+  place-items: center;
+}
+.feature{
+  background: rgb(95, 0, 95);
+  border: 3px rgb(255, 0, 255) solid;
+  border-radius: 10px;
+  padding: 1rem;
+  
+}
 
 @media (max-width: 384px) {
   .links {
@@ -96,4 +99,3 @@ main {
     padding-top: 10rem;
   }
 }
-/*AaA*/
