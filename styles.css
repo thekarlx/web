@@ -78,11 +78,15 @@ main {
   font-family: "Inter", sans-serif;
   color: white;
 }
+
 .features-container{
   display: grid;
+  grid-template-rows: 2fr;
   place-items: center;
+  margin: 1rem 2.5rem;
 }
 .feature{
+  display: inline;
   background: rgb(95, 0, 95);
   border: 3px rgb(255, 0, 255) solid;
   border-radius: 10px;
