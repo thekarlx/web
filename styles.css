@@ -1,22 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
 body {
-  margin: 2rem;
   background: rgb(15,15,15);
   color: white;
   font-family: "Inter", sans-serif;
 }
 
-.rl img {
-  height: 64px;
-  display: inline;
-  background: rgb(37, 37, 37);
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  background: rgba(30, 30, 30, 0.5);
+  backdrop-filter: blur(4px);
+}
+main{
+  padding-top: 6rem;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.links a {
+  display: flex;
+  justify-content: center;
   padding: 5px;
+  border-radius: 10px;
+  background: linear-gradient(to right, rgb(1, 98, 182), rgb(43, 0, 112));
+  color: white;
+  text-decoration: none;
+}
+
+.links img {
+  height: 32px;
+  padding: 5px;
+  display: inline;
   border-radius: 10px;
 }
 
-.rl{
-  user-select: none;
-  gap: 10px;
+.kx-title {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;      
+}
+.kx-title h1{
+  margin: 1rem 0.5rem 0.4rem;
+  background: linear-gradient(90deg, #00eaff, #0000ff);
+  background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+}
+.kx-title small{
+  color: gray;
+}
+.github{
+  font-weight: 700;
+  border-radius: 10px;
+  display: flex;
+  border: none;
+  background: linear-gradient(to right, blue, rgb(0, 191, 255));
+}
+.github img{
+  width: 2rem;
+}
+.github a{
+  padding-right: 10px;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  color: white;
+  display: flex;
   align-items: center;
 }
