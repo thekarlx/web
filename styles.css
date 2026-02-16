@@ -14,12 +14,12 @@ header{
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 10px;
+  padding: 2rem 10px;
   background: rgba(30, 30, 30, 0.5);
   backdrop-filter: blur(4px);
 }
 main{
-  padding-top: 6rem;
+  padding-top: 8rem;
 }
 .links {
   display: flex;
