@@ -92,4 +92,7 @@ main {
     gap: 0.5rem;
     padding: 1rem 10px;
   }
+  main{
+    padding-top: 10rem;
+  }
 }
