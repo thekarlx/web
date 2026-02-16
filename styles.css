@@ -1,16 +1,15 @@
-*{
+* {
   margin: 0;
   padding: 0;
-  
 }
 
 body {
-  background: rgb(15,15,15);
+  background: rgb(15, 15, 15);
   color: white;
   font-family: "Inter", sans-serif;
 }
 
-header{
+header {
   position: fixed;
   top: 0;
   width: 100%;
@@ -18,9 +17,11 @@ header{
   background: rgba(30, 30, 30, 0.5);
   backdrop-filter: blur(4px);
 }
-main{
-  padding-top: 8rem;
+
+main {
+  padding-top: 8rem; /* evita que el contenido se esconda bajo el header */
 }
+
 .links {
   display: flex;
   justify-content: center;
@@ -37,6 +38,8 @@ main{
   text-decoration: none;
 }
 
+
+
 .links img {
   height: 32px;
   padding: 5px;
@@ -47,39 +50,46 @@ main{
 .kx-title {
   display: flex;
   flex-direction: column;
-  justify-content: center;  
-  align-items: center;      
+  justify-content: center;
+  align-items: center;
 }
-.kx-title h1{
+
+.kx-title h1 {
   margin: 1rem 0.5rem 0.4rem;
   background: linear-gradient(90deg, #00eaff, #0000ff);
-  background-clip: text; 
-  -webkit-text-fill-color: transparent; 
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.kx-title small{
+
+.kx-title small {
   color: gray;
 }
-.github{
-  font-weight: 700;
-  border-radius: 10px;
+
+.github {
   display: flex;
   border: none;
+  border-radius: 10px;
+  font-weight: 700;
   background: linear-gradient(to right, blue, rgb(0, 191, 255));
 }
-.github img{
+
+.github img {
   width: 2rem;
 }
-.github a{
+
+.github a {
+  display: flex;
+  align-items: center;
   padding-right: 10px;
   text-decoration: none;
   font-family: "Inter", sans-serif;
   color: white;
-  display: flex;
-  align-items: center;
 }
-@media (max-width: 384px){
-  .links{
+
+@media (max-width: 384px) {
+  .links {
     gap: 0.5rem;
-    padding: 2rem 10px;
+    padding: 1rem 10px;
   }
 }
