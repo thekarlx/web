@@ -77,3 +77,8 @@ main{
   display: flex;
   align-items: center;
 }
+@media (max-width: 384px){
+  .links{
+    gap: 0.5rem;
+  }
+}
