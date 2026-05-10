@@ -1,46 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Sekuya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 *{
-    margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    margin: 0;
 }
 body{
-    font-family: "Roboto";
-    background: rgb(0, 174, 255);
     color: white;
+    background: rgb(33, 33, 33);
 }
 header{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 1.5rem;
-    background: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(1px);
-}
-nav{
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 1rem;
-}
-nav a{
-    border-radius: 2px;
+    font-family: "Sekuya", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color: white;
-    text-decoration: none;
-    padding: 0.5rem;
-    background: rgba(0, 0, 0, 0.1);
-    border-bottom: 2px white solid;
+    background: black;
+    border-bottom: 3px solid gray;
+    padding: 1rem;
 }
-main{
-    padding-top: 7rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+.logo{
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.logo img{
+    height: 2rem;
+    filter: invert();
 }
 
-.container{
+
+nav a{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+.player {
+    height: 100%;
+    margin: 1rem;
     display: flex;
+    align-items: center;
     justify-content: center;
-    background: rgb(255, 191, 0);
-    padding: 1rem;
+}
+
+.player video {
+    aspect-ratio: 9/16;
+    width: 40vh;
+    background: #000; 
 }
